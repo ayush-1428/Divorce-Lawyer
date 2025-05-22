@@ -1,9 +1,5 @@
 import React from 'react'
 import './s.css'
-import one from "../../assets/data/one/two.png";
-import two from "../../assets/data/two/two.png";
-import three from "../../assets/data/three/one.png";
-import four from "../../assets/data/four/one.png";
 
 const ServicePage = () => {
   return (

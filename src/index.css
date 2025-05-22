@@ -13,3 +13,48 @@ body{
   --font-familyF:  "Fraunces", serif;
   --font-familyI: "Inter", serif;
 }
+
+@keyframes fromBottom {
+
+  from{
+    opacity: 0;
+    scale: 0.98;
+    background-color: black;
+  } 
+  to{
+    opacity: 1;
+    scale: 1;
+    background-color: white;
+  }
+}
+
+@keyframes textRightToLeft{
+  from{
+      opacity: 0;
+  }
+  to{
+
+    opacity: 1;
+  }
+}
+@keyframes animinateAbout{
+  from{
+      opacity: 0;
+  }
+  to{
+
+    opacity: 1;
+  }
+}
+
+.AniminateFromBottom{
+  animation: fromBottom 0s linear;
+}
+.textRightToLeftC{
+  animation: textRightToLeft 0.5s linear;
+}
+.animinateAbout{
+  animation: animinateAbout linear;
+  animation-timeline: view();
+
+}

@@ -4,7 +4,7 @@ import about from '../../assets/data/about/about.png'
 
 const About = () => {
   return (
-    <div className='about' id='about'>
+    <div className='about animinateAbout' id='about'>
 
 
         <div className='about_cont'>
