@@ -1,0 +1,82 @@
+.project{
+    width: calc(95vw);
+    margin-top: 5px;
+
+    background-color: white;
+    border-radius: 10px;
+
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+
+    
+
+
+}
+
+.project_text{
+    font-family: var(--font-familyF);
+    font-size: 32px;
+    font-weight: 200;
+}
+.project_cont{
+    width: 90vw;
+    
+}
+
+.projectsIamge:hover{
+    transform: scale(0.93);
+}
+.projectsIamge{
+    transition: all 0.3s ease;
+}
+.projectUrlHover{
+    flex: 0 0 49%;
+    box-sizing: border-box;
+
+
+}
+
+.Projects_show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .projectUrlHover{
+        flex: 0 0 90vw
+    }
+}
+
+
+/* .image_onBoxyBox{
+    width: 100%;
+
+    aspect-ratio: 2/1;
+
+    border: 1px solid black;
+    border-radius: 10px;
+} */
+
+.image_boxyBox {
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.image_boxyBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ensures images fill space without distortion */
+}
+
+.projectsIamge:hover {
+  cursor: none;
+}

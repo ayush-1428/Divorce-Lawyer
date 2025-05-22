@@ -1,0 +1,129 @@
+.logoBox{
+    z-index: 10;
+}
+.navbar-items{
+    z-index: 10;
+}
+.navbar{
+    max-width: 80vw;
+
+}
+.logoBox{
+    font-family: var(--font-familyI);
+    font-weight: 100;
+
+    width: 250px;
+
+    
+    position: fixed;
+    top: 40px;
+    left: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    background-color: #EDEDED;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.text-logo{
+    font-weight: 300;
+    font-size: 16px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.logo-bg{
+    background-color: black;
+
+    height: 40px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.navbar-items{
+    position: fixed;
+    top: 40px;
+    right: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-familyI);
+}
+.navbar-item{
+    box-shadow: 0.1px 0.1px  #888888;
+    border: 1px solid #888888;
+
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+
+    background-color: white;
+
+}
+.navbar-item-text{
+    font-weight: 300;
+    font-size: 16px;
+    
+    padding: 0px 15px 0px 15px;
+}
+.navbar-item-text:hover{
+    background-color: #EDEDED;
+    border-radius: 10px;
+
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px 20px 0px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: #EDEDED;
+    color: black;
+}
+
+@media screen and (max-width: 840px) {
+    .navbar-items{
+        display: none;
+    }
+    .logoBox{
+        top: 40px;
+        left: 20px;
+    }
+
+    
+}
