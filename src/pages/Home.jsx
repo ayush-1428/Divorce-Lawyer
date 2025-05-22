@@ -1,7 +1,7 @@
 
 import './home.css'
 
-import Navbar from '../components/navbar/navbar'
+import Navbar from '../components/navbar/Navbar'
 import Hero from '../components/hero/Hero'
 import Project from '../components/projects/Project'
 import About from '../components/about/About'
