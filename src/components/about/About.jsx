@@ -1,10 +1,36 @@
 import React from 'react'
 import './about.css'
 import about from '../../assets/data/about/about.png'
+import { easeIn, motion } from 'motion/react'
 
 const About = () => {
   return (
-    <div className='about animinateAbout' id='about'>
+
+    <motion.div className='about animinateAbout' id='about'
+
+    initial={{
+     
+      scaleY: 0.7,
+      scaleX: 0.9,
+
+    }}
+
+    whileInView={{
+
+      scaleY: 1,
+      scaleX: 1,
+    }}
+
+    transition={{
+      duration: 0.3,
+      ease: 'linear'
+    }}
+    
+    viewport={{
+      margin: '-10px',
+      once: true,
+    }}
+    >
 
 
         <div className='about_cont'>
@@ -46,7 +72,7 @@ We handle a wide range of issues including divorce, custody, criminal defense, a
 
         </div>
 
-    </div>
+    </motion.div>
   )
 }
 

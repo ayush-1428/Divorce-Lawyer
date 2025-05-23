@@ -10,6 +10,7 @@ import Location from '../components/location/Location'
 
 import Footer from '../components/footer/Footer'
 
+
 const Home = () => {
   return (
 

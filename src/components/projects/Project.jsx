@@ -7,11 +7,36 @@ import four from "../../assets/data/four/one.png";
 
 import CustomCursor from "./CustomCursor.jsx";
 
+import { motion } from "motion/react";
+
 const Project = () => {
   const [cursorVisible, setCursorVisible] = useState(false); // ✅ Correct position
 
   return (
-    <div className="project">
+    <motion.div className="project"
+    
+      initial={{
+     
+      scaleY: 0.9,
+      scaleX: 0.9,
+
+    }}
+    animate={{
+
+      scaleY: 1,
+      scaleX: 1,
+    }}
+
+    transition={{
+      duration: 0.3,
+      ease: 'linear'
+    }}
+    
+    viewport={{
+      once: true,
+    }}
+    
+    >
       {/* Custom Cursor Component */}
       <CustomCursor visible={cursorVisible} />
 
@@ -54,7 +79,7 @@ const Project = () => {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
