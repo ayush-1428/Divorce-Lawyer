@@ -47,6 +47,19 @@ A fully responsive website built using **React.js** for **Advocate Manju Prajapa
 To run the project locally:
 
 1. **Clone the repository:**
-```bash
+
 git clone https://github.com/YOUR_USERNAME/divorce-lawyer-website.git
 cd divorce-lawyer-website
+
+2. **Install dependencies:**
+
+npm install
+
+3. **Run the development server:**
+
+npm start
+
+4. **Visit in browser:**
+   
+http://localhost:3000
+
