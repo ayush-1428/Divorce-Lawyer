@@ -28,10 +28,6 @@ A fully responsive website built using **React.js** for **Advocate Manju Prajapa
 - Results-Focused Approach  
 - Start With Confidence  
 
-### 🔹 Contact Information
-- 📍 Surajpur Court, Greater Noida – Chamber No. 117, Gali No. 4  
-- 📞 +91-964382511
-
 ---
 
 ## 🛠️ Built With
@@ -48,7 +44,7 @@ To run the project locally:
 
 1. **Clone the repository:**
 
-git clone https://github.com/YOUR_USERNAME/divorce-lawyer-website.git
+git clone https://github.com/ayush-1428/divorce-lawyer-website.git
 cd divorce-lawyer-website
 
 2. **Install dependencies:**
