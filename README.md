@@ -3,7 +3,7 @@
 A fully responsive website built using **React.js** for **Advocate Manju Prajapati**, a family and divorce lawyer based in Greater Noida. This site showcases legal services, background information, and contact details in a clear and professional format.
 
 🚀 **Live Demo:**  
-👉 [https://www.divorcelawyersnoida.online/](https://www.divorcelawyersnoida.online/)
+👉 [https://www.divorcelawyersnoida.online/](https://www.amdivorcelawyer.online/)
 
 ---
 
