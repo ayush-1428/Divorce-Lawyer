@@ -71,7 +71,6 @@ const Project = () => {
                   src={item.src}
                   className="image_onBoxyBox"
                   alt={item.label}
-                  loading="lazy"
                 />
                 <div className="overlayText">{item.label}</div>
               </div>
